@@ -1,0 +1,35 @@
+:root {
+	/* dark shades of primary color*/
+	--clr-primary-1: #602479;
+	--clr-primary-2: #6a2986;
+	--clr-primary-3: #732c92;
+	--clr-primary-4: #772d96;
+	--clr-primary-5: #7b329a;
+	/* primary/main color */
+	--clr-primary-main: #843aa4;
+	/* lighter shades of primary color */
+	--clr-primary-6: #8d3faf;
+	--clr-primary-7: #8d3faf;
+	--clr-primary-8: #9943bd;
+	--clr-primary-9: #d7a4ed;
+	--clr-primary-10: #b254db;
+
+	--theme-dot-border: #fff;
+
+	--color-main: #843aa4;
+	/* --color-main: #46344e; */
+	--color-white: #fff;
+
+	--border-color: #1d1520;
+
+	--primary-text: #fff;
+	--secondary-text: #350345;
+	/* --secondary-text: #8534a3; */
+
+	--theme-dot-border: #fff;
+
+	--preview-background: rgb(29, 21, 32, 0.8);
+	--preview-shadow: #2b202f;
+
+	--btn-color: #8534a3;
+}

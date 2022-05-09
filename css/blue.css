@@ -1,0 +1,18 @@
+:root {
+	/* dark shades of primary color*/
+	--clr-primary-1: #1d2d3c;
+	--clr-primary-2: #186fc1;
+	--clr-primary-3: #5490cd;
+	--clr-primary-4: #1f7cd3;
+	--clr-primary-5: #5f5c5c;
+	/* primary/main color */
+	--clr-primary-main: #5e96ce;
+	/* lighter shades of primary color */
+	--clr-primary-6: #74ace3;
+	--clr-primary-7: #186fc1;
+	--clr-primary-8: #1f7cd3;
+	--clr-primary-9: #2b4056;
+	--clr-primary-10: #74ace3;
+
+	--theme-dot-border: #fff;
+}

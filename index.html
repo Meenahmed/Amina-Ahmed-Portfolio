@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Amina Ahmed | Portfolio</title>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Mono:ital,wght@0,500;1,400&family=Russo+One&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<link id="theme-style" rel="stylesheet" href="" />
+	</head>
+	<body>
+		<header class="header" id="header">
+			<nav class="nav">
+				<a href="#header" class="nav__logo-link">
+					<img
+						src="images/logo_sofiaStyle.svg"
+						alt="Amina logo"
+						class="nav__logo"
+					/>
+				</a>
+
+				<ul class="nav__links">
+					<li class="nav__item">
+						<a class="nav__link" href="#header">Home</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#about">About</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#projects">Projects</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="hero">
+				<div class="hero-center">
+					<article class="hero-info">
+						<h1>i'm amina ahmed</h1>
+						<h5>I was a Biologist, now I am a Full-stack Developer</h5>
+						<button class="btn hero-btn btn__text btn__scroll--to">
+							Meet me
+						</button>
+					</article>
+					<article class="hero-img">
+						<img
+							src="images/work-station.jpg"
+							class="header__img"
+							alt="work space"
+						/>
+						<div class="theme-container">
+							<h4>Personalize Your Theme</h4>
+
+							<div class="theme-options-container">
+								<div
+									data-mode="light"
+									id="light__mode"
+									class="theme__dot"
+								></div>
+								<div data-mode="blue" id="blue__mode" class="theme__dot"></div>
+								<div
+									data-mode="purple"
+									id="purple__mode"
+									class="theme__dot"
+								></div>
+							</div>
+							<p class="theme__settings">
+								Choose the <span>theme</span> of your choice
+							</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</header>
+
+		<a href="#header" class="scroll-link top-link">
+			<i class="fas fa-arrow-up"></i>
+		</a>
+
+		<!-- ABOUT SECTION -->
+		<section class="section section--1" id="about">
+			<div class="section-center section__body">
+				<div class="section__title">
+					<h2>More About Me</h2>
+					<div class="underline"></div>
+				</div>
+				<div class="section__description">
+					<p>
+						I am a Fullstack developer, I build new projects to challenge my
+						brain and satisfy my need for knowledge of modern web development
+						technologies.
+					</p>
+					<p>
+						While building, I try to satisfy user stories by breaking the
+						stories down into smaller problems and providing solutions to the
+						problem thereby meeting the goal of the users.
+					</p>
+				</div>
+
+				<hr />
+
+				<h4>TOP EXPERTISE</h4>
+
+				<p>
+					Fullstack developer with primary focus on JavaScript + React.js +
+					Node.js :
+					<a class="resume" target="_blank" href="Amina_Ahmed_Resume.pdf"
+						>Download Resume</a
+					>
+				</p>
+
+				<div class="skills__highlight">
+					<div class="skills__shadow">
+						<div class="skills__list">
+							<div class="corner" id="corner__tl"></div>
+							<div class="corner" id="corner__tr"></div>
+							<div class="skills__container">
+								<ul>
+									<li>JavaScript</li>
+									<li>React.js</li>
+									<li>Node.js</li>
+									<li>MongoDB</li>
+									<li>HTML</li>
+									<li>CSS</li>
+								</ul>
+								<ul>
+									<li>Java</li>
+									<li>MySQL</li>
+									<li>Spring boot</li>
+									<li>Hibernate</li>
+									<li>REST APIs</li>
+									<li>Version Control (GitHub)</li>
+								</ul>
+							</div>
+							<div class="corner" id="corner__br"></div>
+							<div class="corner" id="corner__bl"></div>
+						</div>
+					</div>
+
+					<div class="skills">
+						<div class="skills__tab-container">
+							<button
+								class="btn skills__tab skills__tab--1 skills__tab--active"
+								data-tab="1"
+							>
+								Fullstack developer
+							</button>
+							<button class="btn skills__tab skills__tab--2" data-tab="2">
+								Problem Solver
+							</button>
+							<button class="btn skills__tab skills__tab--3" data-tab="3">
+								Team Player
+							</button>
+						</div>
+
+						<div
+							class="skills__content skills__content--1 skills__content--active"
+						>
+							<div class="skills__icon skill__icon--1">
+								<i class="fa-solid fa-code"></i>
+							</div>
+							<div class="skill__desc">
+								<h5 class="skills__header">
+									I build Fullstack Web Application
+								</h5>
+								<p>
+									Building Full-stack web application with same scripting language such has JavaScript, React.js and Node.js is fun. But what is more fun is learning new language as required by the company and client's problem.
+								</p>
+							</div>
+						</div>
+
+						<div class="skills__content skills__content--2">
+							<div class="skills__icon skill__icon--2">
+								<i class="fa-solid fa-unlock"></i>
+							</div>
+							<div class="skill__desc">
+								<h5 class="skills__header">I pay attention to user stories</h5>
+								<p>
+									User's stories is an essential part of my work. I listen to the story details, break it down into smaller problems and provide solutions to the problem using code.
+								</p>
+							</div>
+						</div>
+
+						<div class="skills__content skills__content--3">
+							<div class="skills__icon skill__icon--3">
+								<i class="fa-solid fa-people-group"></i>
+							</div>
+							<div class="skill__desc">
+								<h5 class="skills__header">I am a great team player</h5>
+								<p>
+									I work well with little supervision as an individual, also perform good in a team to produce good and quality results and everyone is happy.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- PROJECT SECTION -->
+		<section class="section section--2" id="projects">
+			<div class="section__title">
+				<h2>My Projects</h2>
+				<div class="underline"></div>
+			</div>
+
+				<div class="section-center project-center">
+				<!-- single project -->
+				<div class="card">
+					<!-- front of the card -->
+					<div class="card-side card-front">
+						<img src="./images/job-tracker.JPG" alt="" />
+						<div class="card-info">
+							<h4>Job Tracking Application</h4>
+							<p>
+								Job Tracker Application created using React, useContext, Node.js, MongoDB. Registered members can add, modify, keep records of job and delete their job.
+							</p>
+						</div>
+					</div>
+					<!-- card back -->
+					<div class="card-side card-back">
+						<a href="https://github.com/Meenahmed/mern-job-traker" target="_blank" class="project-icon">
+							  <i class="card-back-icon fa-brands fa-github"></i>
+            			</a>
+						<a href="https://mern-job-tracker.herokuapp.com/landing" target="_blank" class="project-icon">
+              				<i class="card-back-icon fa-solid fa-folder-tree"></i>
+            			</a>
+					</div>
+				</div>
+				<!-- end of single project -->
+				<!-- single project -->
+				<div class="card">
+					<!-- front of the card -->
+					<div class="card-side card-front">
+						<img src="./images/count-down.JPG" alt="" />
+						<div class="card-info">
+							<h4>Image Slider & Countdown</h4>
+							<p>
+								Created a single page project using HTML and JavaScript functionalities of a countdown to a future event and contains image slider with controls.
+							</p>
+						</div>
+					</div>
+					<!-- card back -->
+					<div class="card-side card-back">
+						<a href="https://github.com/Meenahmed/slider_countdown-javascript" target="_blank" class="project-icon">
+							  <i class="card-back-icon fa-brands fa-github"></i>
+            			</a>
+						<a href="https://myfriend-wedding.netlify.app/" target="_blank" class="project-icon">
+							<i class="card-back-icon fa-solid fa-sliders"></i>
+            			</a>
+					</div>
+				</div>
+				<!-- end of single project -->
+				<!-- single project -->
+				<div class="card">
+					<!-- front of the card -->
+					<div class="card-side card-front">
+						<img src="./images/clothing-API.JPG" alt="" />
+						<div class="card-info">
+							<h4>Clothing Shopping API</h4>
+							<p>
+								Shopping API with Node.js was developed to 
+								authenticates users to navigate certain routes and the admin performs CRUD functionalities on the users and the products.
+							</p>
+						</div>
+					</div>
+					<!-- card back -->
+					<div class="card-side card-back">
+						<a href="https://github.com/Meenahmed/Clothing_API_Node.js" target="_blank" class="project-icon">
+							  <i class="card-back-icon fa-brands fa-github"></i>
+            			</a>
+						<a href="https://clothing-api-01.herokuapp.com/" target="_blank" class="project-icon">
+							  <i class="card-back-icon fa-solid fa-shirt"></i>
+            			</a>
+					</div>
+				</div>
+				<!-- end of single project -->
+		</section>
+
+		<!-- CONTACT SECTION -->
+		<section class="section section--3" id="contact">
+			<div class="section__title">
+				<h2>Get In Touch</h2>
+				<div class="underline"></div>
+			</div>
+			
+			<div class="section-center contact__body">
+				<!-- contact info -->
+				<article class="contact-info">
+					<!-- contact item -->
+					<div class="contact-item">
+						<span class="contact-icon">
+							<i class="fa-solid fa-user"></i>
+						</span>
+						<h4 class="contact-text">
+							<span>Name </span>
+							<span>Amina Ahmed</span>
+						</h4>
+					</div>
+					<!-- end of contact item -->
+					<!-- contact item -->
+					<div class="contact-item">
+						<span class="contact-icon">
+							<i class="fa-solid fa-location-dot"></i>
+						</span>
+						<h4 class="contact-text">
+							<span>Address </span>
+							<span>Canada</span>
+						</h4>
+					</div>
+					<!-- end of contact item -->
+					<!-- contact item -->
+					<div class="contact-item">
+						<span class="contact-icon">
+							<i class="fa-solid fa-envelope"></i>
+						</span>
+						<h4 class="contact-text">
+							<span>Email </span>
+							<span class="contact-email">adewuyiamina@gmail.com</span>
+						</h4>
+					</div>
+					<!-- end of contact item -->
+					<!-- contact item -->
+					<div class="contact-item">
+						<span class="contact-icon">
+							<i class="fa-brands fa-linkedin"></i>
+						</span>
+						<h4 class="contact-text">
+							<span>LinkedIn </span>
+							<span><a href="www.linkedin.com/in/aminaahmed1">www.linkedin.com/in/aminaahmed1</a></span>
+						</h4>
+					</div>
+					<!-- end of contact item -->
+					
+				</article>
+
+				<article class="contact-form">
+					<h4>Message me</h4>
+					<form action="https://formspree.io/f/xnqwgwgb" method="post">
+
+						<div class="form-group">
+							<label for="name">Full Name</label>
+								<input id="name" name="name" class="" type="text" placeholder="Name" />
+							
+							<div class="error-hint hidden">Your name is required.</div>
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+								<input id="email" name="email" class="" type="text" placeholder="Email" />
+							<div class="error-hint hidden">Please provide valid email</div>
+						</div>
+						<div class="form-group">
+							<label for="subject">Subject</label>
+								<input id="subject" name="subject" class="" type="text" placeholder="Subject" />
+							
+							<div class="error-hint hidden">Message subject is required</div>
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+								<textarea id="message" name="subject" class="" type="text" placeholder="Message..."></textarea>
+							
+							<div class="error-hint hidden">Your message is required</div>
+						</div>
+						<button type="submit" class="btn contact-btn ">Send Message</button>
+					</form>
+					<div class="thank-you hidden">Thank you for getting in-touch</div>
+				</article>
+			</div>
+		</section>
+
+		<footer>
+			<h5>Amina_Ahmed Portfolio</h5>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
